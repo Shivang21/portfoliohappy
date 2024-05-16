@@ -31,9 +31,7 @@ export function Hero() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInUp" delay={1 * 1000}>
       <div className="social-media"><a
-        href="https://www.linkedin.com/in/shivang-gautam-b41552151
-
-"
+        href="https://www.linkedin.com/in/shivang-gautam-b41552151"
         target="_blank"
         rel="noreferrer"
       >
@@ -47,14 +45,14 @@ export function Hero() {
           <img src={githubIcon} alt="GitHub" />
         </a>
         <a
-          href="https://api.whatsapp.com/send/?phone=%2B919630576848&text=Hello+Vinayak"
+          href="https://api.whatsapp.com/send?phone=9653084644&text=hello+shivang"
           target="_blank"
           rel="noreferrer"
         >
           <img src={whatsapp} alt="Whatsapp" />
         </a>
         <a
-          href="https://t.me/CodeVinayak"
+          href="https://t.me/Shivanggautam3"
           target="_blank"
           rel="noreferrer"
         >

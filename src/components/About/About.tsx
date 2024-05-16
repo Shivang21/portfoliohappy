@@ -1,7 +1,7 @@
 import { Container } from "./styles";
-import VinayakSingh from "../../assets/VinayakSingh.png";
+import shivang from "../../assets/shivang.png";
 import wordpress from "../../assets/wordpress.svg";
-import shopify from "../../assets/shopify.svg";
+import laravel from "../../assets/laravel.svg"
 import htmlIcon from "../../assets/html-icon.svg";
 import cssIcon from "../../assets/css-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
@@ -21,29 +21,29 @@ export function About() {
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.1 * 1000}>
           <p>
-            Hi there! I'm Vinayak, a website developer with a passion for creating custom online experiences for my clients. With a skill set including HTML, CSS, JavaScript, and React, I have the tools to bring any website vision to life.
-          </p>
+          Hello, I'm Shivang Gautam, a passionate Full Stack Developer with two years of hands-on experience in crafting robust web applications. My journey in the realm of software development has been an exhilarating ride, where every challenge has been an opportunity for growth and innovation.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000} style={{ marginTop: "2rem", marginBottom: "2rem" }}>
           <p>
-            But my services go beyond just custom development - I'm also proficient in using CMS systems like WordPress and Shopify, making it easy for my clients to take control of their own websites and keep them up to date.</p>
+          Throughout my career, I've immersed myself in a diverse array of technologies, honing my skills across the entire stack. From crafting seamless backend functionalities using Laravel and Node.js to building dynamic user interfaces with ReactJS, I've embraced the intricacies of modern web development with zeal and dedication. My proficiency extends to languages like PHP, which forms the backbone of many of my projects.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.3 * 1000}>
           <p>
-            So if you're in need of a new website or just looking to revamp your current online presence, I'd love to chat and see how I can help. Let's bring your website dreams to reality together!</p>
+          Beyond technical expertise, I bring a collaborative spirit and a commitment to delivering high-quality, maintainable code. I thrive in dynamic environments where innovation is encouraged and teamwork is paramount. My experience working in agile teams has equipped me with effective communication skills and a knack for adapting to evolving project requirements. Let's connect and embark on a journey to create exceptional digital experiences together.</p>
         </ScrollAnimation>
+        
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000}>
           <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
-          <div className="hability">
+          {/* <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.10 * 1000}>
               <img src={wordpress} alt="Wordpress" />
             </ScrollAnimation>
-          </div>
+          </div> */}
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.12 * 1000}>
-              <img src={shopify} alt="shopify" />
+              <img src={laravel} alt="laravel" />
             </ScrollAnimation>
           </div>
           <div className="hability">
@@ -90,7 +90,7 @@ export function About() {
       </div>
       <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.20 * 1000}>
-          <img src={VinayakSingh} alt="Vinayak Singh" />
+          <img src={shivang} alt="Shivang Gautam" />
         </ScrollAnimation>
       </div>
     </Container>
