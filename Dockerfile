@@ -1,7 +1,7 @@
 # build environment
 FROM node:14.17 as react-build
-WORKDIR /app
-#COPY . ./
+#WORKDIR /app
+COPY . ./
 RUN npm install
 RUN npm run build
 
